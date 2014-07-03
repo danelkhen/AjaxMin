@@ -46,7 +46,7 @@
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>bin\</OutputPath>
     <BaseAddress>285212672</BaseAddress>
     <ConfigurationOverrideFile>
     </ConfigurationOverrideFile>
@@ -66,7 +66,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>bin\</OutputPath>
     <BaseAddress>285212672</BaseAddress>
     <ConfigurationOverrideFile>
     </ConfigurationOverrideFile>
@@ -90,7 +90,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-	<Compile Include="Properties\ProductAssemblyInfo.cs" />
+    <Compile Include="Properties\ProductAssemblyInfo.cs" />
     <Compile Include="CommonData.cs" />
     <Compile Include="CommonSettings.cs" />
     <Compile Include="CommonStrings.Designer.cs">
